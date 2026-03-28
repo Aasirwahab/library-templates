@@ -19,6 +19,11 @@ import MaskedCursorReveal from '@/components/showcase/MaskedCursorReveal';
 import KineticMarquee from '@/components/showcase/KineticMarquee';
 import TiltCard3D from '@/components/showcase/TiltCard3D';
 import TextScramble from '@/components/showcase/TextScramble';
+import AuroraText from '@/components/showcase/AuroraText';
+import TypewriterChat from '@/components/showcase/TypewriterChat';
+import SplitTextReveal from '@/components/showcase/SplitTextReveal';
+import BlurReveal from '@/components/showcase/BlurReveal';
+import ElasticText from '@/components/showcase/ElasticText';
 
 const componentMap: Record<string, React.ReactNode> = {
   'magnetic-button': (
@@ -85,6 +90,31 @@ const componentMap: Record<string, React.ReactNode> = {
         text="Hover to decrypt message" 
         className="text-3xl md:text-5xl font-bold text-white tracking-widest text-center"
       />
+    </div>
+  ),
+  'aurora-text': (
+    <div className="w-full h-full min-h-[400px] p-8">
+      <AuroraText />
+    </div>
+  ),
+  'typewriter-chat': (
+    <div className="w-full h-full min-h-[400px] p-8">
+      <TypewriterChat />
+    </div>
+  ),
+  'split-text-reveal': (
+    <div className="w-full h-full min-h-[400px] p-8">
+      <SplitTextReveal />
+    </div>
+  ),
+  'blur-reveal': (
+    <div className="w-full h-full min-h-[400px] p-8">
+      <BlurReveal />
+    </div>
+  ),
+  'elastic-text': (
+    <div className="w-full h-full min-h-[400px] p-8">
+      <ElasticText />
     </div>
   )
 };

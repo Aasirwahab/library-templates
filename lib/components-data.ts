@@ -58,5 +58,35 @@ export const componentsList = [
     name: 'Text Scramble',
     description: 'A cyberpunk-inspired text reveal effect that scrambles characters on hover before settling on the final text.',
     filename: 'TextScramble',
+  },
+  {
+    slug: 'aurora-text',
+    name: 'Aurora Glow Text',
+    description: 'Text with an animated, glowing, multi-color gradient background.',
+    filename: 'AuroraText',
+  },
+  {
+    slug: 'typewriter-chat',
+    name: 'Typewriter Chat',
+    description: 'A terminal/chat style typing effect with a blinking cursor.',
+    filename: 'TypewriterChat',
+  },
+  {
+    slug: 'split-text-reveal',
+    name: 'Split Text Reveal',
+    description: 'A high-end word-by-word reveal using a clipping mask.',
+    filename: 'SplitTextReveal',
+  },
+  {
+    slug: 'blur-reveal',
+    name: 'Blur Reveal Text',
+    description: 'Text that animates from a heavy blur into focus.',
+    filename: 'BlurReveal',
+  },
+  {
+    slug: 'elastic-text',
+    name: 'Elastic Hover Text',
+    description: 'Text characters that stretch and bounce elastically on hover.',
+    filename: 'ElasticText',
   }
 ];
